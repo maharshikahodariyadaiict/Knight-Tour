@@ -22,7 +22,7 @@ public class KnightsTour {
 	
     
 	public int[][] run(int n, int x,int y) {
-		
+		N = n;
 		Main tour2 = new Main();
         chessBoardArray2 = tour2.test(n,x,y);        
         return chessBoardArray2;
