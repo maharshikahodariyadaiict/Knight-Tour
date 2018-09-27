@@ -273,8 +273,8 @@ public void initialize() {
 		public void actionPerformed(ActionEvent e) {
 			System.out.println(moveNumber);
 			
-			for(int i=0;i<6;i++){
-				for(int j=0;j<6;j++){
+			for(int i=0;i<boardSize;i++){
+				for(int j=0;j<boardSize;j++){
 					System.out.print(results[i][j] + " ");
 				}
 				System.out.println("");

@@ -52,7 +52,7 @@ public class ChessBoardMain {
 				f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 				f.setLocationByPlatform(true);
 
-				f.pack();
+				f.setSize(500,100);
 				
 				f.setMaximumSize(f.getSize());
 				f.setVisible(true);
@@ -111,7 +111,7 @@ public class ChessBoardMain {
 					//mainPanel.add(cb8.chessPanel);
 					Runnable rr = new Runnable() {
 						public void run() {
-							newFrame = new JFrame("Knight's Tour With " + 6 +"x"+ 6 + " Board.");
+							newFrame = new JFrame("Knight's Tour With " + 8 +"x"+ 8 + " Board.");
 
 					    	newFrame.getContentPane().add(cb8.chessPanel);
 							newFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
